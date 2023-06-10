@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/Home/Home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Home",
+                "enablePullDownRefresh": false,
+				"transparentTitle": "auto"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Chat/Chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Account/Account",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fafafa",
+		"fontSize": "50px",
+		"list": [
+		  {
+			"pagePath": "pages/Chat/Chat",
+			"iconPath": "static/icons/chat.png"
+		  },
+		  {
+			"pagePath": "pages/Home/Home",
+			"iconPath": "static/icons/crogi.png"
+		  },
+		  {
+			"pagePath": "pages/Account/Account",
+			"iconPath": "static/icons/account.png"
+		  }
+		]
+	}
+}
